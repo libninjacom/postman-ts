@@ -18,6 +18,7 @@ jobs:
         run: |
           pwd
           ls -l
+          pnpm --version
       - name: Install dependencies
         run: |
           just bootstrap
