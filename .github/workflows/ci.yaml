@@ -40,7 +40,7 @@ jobs:
       - uses: extractions/setup-just@v1
       - uses: pnpm/action-setup@v2.2.2
         with:
-          version: 6.0.2
+          version: latest
 #      - uses: pdm-project/setup-pdm@main
 #        name: Setup PDM
 #        with:
@@ -66,4 +66,4 @@ jobs:
       - uses: extractions/setup-just@v1
       - uses: pnpm/action-setup@v2.2.2
         with:
-          version: 6.0.2
+          version: latest
