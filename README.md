@@ -10,6 +10,7 @@
     <a href="https://github.com/libninjacom/postman-ts/actions">
         <img src="https://img.shields.io/github/workflow/status/libninjacom/postman-ts/test?style=flat-square" alt="Build Status" />
     </a>
+    
 
 
 </p>
@@ -19,24 +20,31 @@ Postman client, generated from the OpenAPI spec.
 # Usage
 
 ```typescript
-import { PostmanClient } from "postman";
+import {PostmanClient} from "postman"
 
 async function main() {
-    const client = PostmanClient.fromEnv();
-    const response = await client.getAllApis();
-    console.log(response);
+    const client = PostmanClient.fromEnv()
+    const response = await client.getAllApis()
+    console.log(response)
 }
 
-main();
+main()
 ```
 
 This example loads configuration from environment variables, specifically:
 
--   `POSTMAN_API_KEY`
+* `POSTMAN_API_KEY`
+
+
+
+
 
 # Documentation
 
--   [API Documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a)
+
+* [API Documentation](https://www.postman.com/postman/workspace/postman-public-workspace/documentation/12959542-c8142d51-e97c-46b6-bd77-52bb66712c9a)
+
+
 
 You can see working examples of every API call in the `examples/` directory.
 
@@ -44,4 +52,4 @@ You can see working examples of every API call in the `examples/` directory.
 
 Contributions are welcome!
 
-_Library created with [Libninja](https://www.libninja.com)._
+*Library created with [Libninja](https://www.libninja.com).*

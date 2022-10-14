@@ -1,17 +1,22 @@
 {
-    "compilerOptions": {
-        "sourceMap": true,
-        "target": "esnext",
-        "module": "esnext",
-        "emitDecoratorMetadata": false,
-        "experimentalDecorators": true,
-        "strict": true,
-        "moduleResolution": "node",
-        "baseUrl": ".",
-        "esModuleInterop": true,
-        "isolatedModules": true,
-        "skipLibCheck": true
-    },
-    "include": ["src"],
-    "exclude": ["**/node_modules", "**/.*/"]
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "esnext",
+    "module": "esnext",
+    "emitDecoratorMetadata": false,
+    "experimentalDecorators": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/.*/"
+  ]
 }
