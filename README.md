@@ -5,7 +5,7 @@
         <img src="https://img.shields.io/github/stars/libninjacom/postman-ts.svg?style=flat-square" alt="Stars" />
     </a>
     <a href="https://github.com/libninjacom/postman-ts/actions">
-        <img src="https://img.shields.io/github/workflow/status/libninjacom/postman-ts/CI?style=flat-square" alt="Build Status" />
+        <img src="https://img.shields.io/github/workflow/status/libninjacom/postman-ts/ci?style=flat-square" alt="Build Status" />
     </a>
 </p>
 
