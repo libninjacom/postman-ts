@@ -7,7 +7,7 @@ export class PostmanClient {
         this.authenticator = authenticator;
         this.baseUrl = baseUrl;
     }
-    static fromEnv(): PostmanClient {
+    static from_env(): PostmanClient {
         return new PostmanClient(
             getEnvVar("POSTMAN_BASE_URL"),
             PostmanAuthentication.fromEnv()
